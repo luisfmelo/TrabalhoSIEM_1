@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: #EEE;
+}
+
+.intro {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.intro img {
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.intro p {
+    /*padding-left: 35%;*/
+    text-align: center;
+}
+
+.button {
+    margin: 10px 35% 0 35%;
+    width: 30%;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: opacity 0.5s ease;
+    color: #EEE;
+    background-color: green;
+    opacity: 0.3;
+}
+
+.button:hover {
+    transition-duration: 0.5s;
+    opacity: 1;
+}
