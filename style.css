@@ -54,7 +54,6 @@ html, body {
 }
 
 .button:hover {
-    transition-duration: 0.5s;
     opacity: 1;
 }
 
@@ -141,6 +140,13 @@ img {
 .contentArea a{
     color: #eee;
     text-decoration: underline;
+}
+
+/* DOWNLOAD SECTION */
+.imgIcon{
+    width: 100px;
+    padding: 0;
+    margin-left: 100px;
 }
 
 /* FOOTER */
