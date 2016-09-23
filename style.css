@@ -28,16 +28,22 @@ html, body {
     padding: 0!important;
 }
 
-.intro p {
-    /*padding-left: 35%;*/
+.intro table{
+    margin: 0 auto;
+}
+
+
+.intro table tr th {
     text-align: center;
+    padding: 10px;
+    font-weight: normal;
 }
 
 .button {
-    margin: 10px 35% 0 35%;
-    width: 30%;
-    border: none;
+/*    margin: 10px 35% 0 35%; */
     padding: 15px 25px 15px 25px;
+    width: 100%;
+    border: none;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -135,16 +141,6 @@ img {
 .contentArea a{
     color: #eee;
     text-decoration: underline;
-}
-
-/* TABLE DOWNLOAD SECTION */
-
-table{
-    margin-left: 20%;
-}
-
-th{
-    width: 30%;
 }
 
 /* FOOTER */
