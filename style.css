@@ -25,6 +25,7 @@ html, body {
     display: block;
     width: 60%;
     margin-bottom: 10%;
+    padding: 0!important;
 }
 
 .intro p {
@@ -99,19 +100,20 @@ li a {
 /* CONTENT */
 
 .contentlayer {
-    margin: 0 5% 0 5%;
+    margin: 0 10% 0 10%;
     padding: 2%;
 }
 
-h2 {
+h1 {
     padding: 20px;
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-
 }
 
 .contentArea {
     width: 60%;
     display: inline-block;
+    line-height: 200%;
+    letter-spacing: 1.5px;
 }
 
 .photoArea {
@@ -121,11 +123,29 @@ h2 {
 }
 
 img {
-    width: 70%;
+    width: 80%;
     padding: 15%;
     padding-top: 0;
 }
 
+.contentArea p{
+    text-align: center;
+}
+
+.contentArea a{
+    color: #eee;
+    text-decoration: underline;
+}
+
+/* TABLE DOWNLOAD SECTION */
+
+table{
+    margin-left: 20%;
+}
+
+th{
+    width: 30%;
+}
 
 /* FOOTER */
 
