@@ -121,18 +121,6 @@ h1 {
     letter-spacing: 1.5px;
 }
 
-.photoArea {
-    float: right;
-    width: 40%;
-    display: inline;
-}
-
-img {
-    width: 80%;
-    padding: 15%;
-    padding-top: 0;
-}
-
 .contentArea p{
     text-align: center;
 }
@@ -141,6 +129,34 @@ img {
     color: #eee;
     text-decoration: underline;
 }
+
+.photoArea {
+    float: right;
+    width: 40%;
+    display: inline;
+}
+
+.photoArea img {
+    width: 80%;
+    padding: 15%;
+    padding-top: 0;
+}
+
+/* CONTACT SECTION */
+.contentlayer table{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.contentlayer table tbody tr td{
+    width: 100px;
+    border: 1px solid green;
+}
+
+.imgSocial, .imgMap{
+    width:100%;
+}
+
 
 /* DOWNLOAD SECTION */
 .imgIcon{
