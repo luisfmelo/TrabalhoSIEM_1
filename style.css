@@ -141,19 +141,71 @@ h1 {
     padding: 10%;
 }
 
-/* CONTACT SECTION */
-/*
-.contactSocial{
-    display: inline;
-    width: 50%;
-    display: inline-block;
+/* INTERESTS SECTION */
+/*.gallery{
+  width: 80%;
+  margin-left: 10%;
 }
 
-.socialIcons{
-    width: 15%;
-    padding-right: 15%;
-  }
-*/
+.galleryPhoto{
+  width: 18%;
+  display: inline-block;
+}
+
+.galleryPhoto img{
+  width: 100%;
+}
+
+.squareGallery{
+    display: inline;
+    width: 70%;
+    float: right;
+}
+
+#bigPhoto{
+  float: left;
+  margin:0;
+}*/
+
+.gallery{
+  margin-left: 200px;
+}
+.galleryPhoto{
+  width: 12%;
+  display: inline-block;
+  margin-right: 12%;
+}
+
+.galleryPhoto img{
+  width: 100%;
+}
+
+#bigPhoto{
+  float: left;
+  width: 22%;
+}
+
+figure {
+  top: -100px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+figcaption {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 0px 100% 0 0;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* CONTACT SECTION */
 .contactMap{
     display: inline;
     width: 50%;
@@ -188,7 +240,7 @@ footer {
 }
 
 .social{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .socialIcons{
