@@ -23,7 +23,7 @@ html, body {
     border-radius: 100%;
     margin: auto;
     display: block;
-    width: 60%;
+    width: 50%;
     margin-bottom: 10%;
     padding: 0!important;
 }
@@ -105,8 +105,8 @@ li a {
 /* CONTENT */
 
 .contentlayer {
-    margin: 0 10% 0 10%;
-    padding: 2%;
+    margin: 0;
+    padding: 2% 0 0 10%;
 }
 
 h1 {
@@ -137,25 +137,35 @@ h1 {
 }
 
 .photoArea img {
-    width: 80%;
-    padding: 15%;
-    padding-top: 0;
+    width: 70%;
+    padding: 10%;
 }
 
 /* CONTACT SECTION */
-.contentlayer table{
-    width: 80%;
-    margin-left: 5%;
+/*
+.contactSocial{
+    display: inline;
+    width: 50%;
+    display: inline-block;
 }
 
-.contentlayer table tbody tr td{
-    width: 100px;
-    border: 1px solid green;
+.socialIcons{
+    width: 15%;
+    padding-right: 15%;
+  }
+
+.contactMap{
+    display: inline;
+    width: 50%;
+    display: inline;
+    float: right;
 }
 
-.imgSocial, .imgMap{
-    width:100%;
-}
+.imgMap{
+  width: 80%;
+  padding-right: 20%;
+}*/
+
 
 
 /* DOWNLOAD SECTION */
@@ -173,6 +183,20 @@ footer {
     bottom: 0;
     left: 0;
     background-color: #111;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
+}
+
+.social{
+    margin-bottom: 10px;
+}
+
+.socialIcons{
+  width: 1.5%;
+  margin: 0 3% 0 3%;
+  border-bottom: 2px solid #111;
+}
+
+.socialIcons:hover{
+  border-bottom: 2px solid white;
 }
