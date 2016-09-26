@@ -137,36 +137,11 @@ h1 {
 }
 
 #myPhoto {
-    width: 70%;
-    padding: 10%;
+    width: 60%;
+    padding-left: 10%;
 }
 
 /* INTERESTS SECTION */
-/*.gallery{
-  width: 80%;
-  margin-left: 10%;
-}
-
-.galleryPhoto{
-  width: 18%;
-  display: inline-block;
-}
-
-.galleryPhoto img{
-  width: 100%;
-}
-
-.squareGallery{
-    display: inline;
-    width: 70%;
-    float: right;
-}
-
-#bigPhoto{
-  float: left;
-  margin:0;
-}*/
-
 .gallery{
   margin-left: 200px;
 }
