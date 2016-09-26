@@ -48,8 +48,8 @@ html, body {
     display: inline-block;
     font-size: 16px;
     transition: opacity 0.5s ease;
-    color: #EEE;
-    background-color: green;
+    color: #111;
+    background-color: #eee;
     opacity: 0.3;
 }
 
