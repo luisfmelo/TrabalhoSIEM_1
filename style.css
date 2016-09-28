@@ -1,6 +1,6 @@
 html, body {
-    background-color: #444;
-    color: #EEE;
+    background-color: #F4F4F4;
+    color: #373737;
     margin: 0;
     padding: 0;
     font-family: 'Vollkorn', Georgia, Times, serif;
@@ -44,10 +44,10 @@ html, body {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    transition: opacity 0.5s ease;
-    color: #111;
-    background-color: #eee;
-    opacity: 0.3;
+    transition: opacity 0.8s ease;
+    color: #C0B283;
+    background-color: #373737;
+    opacity: 0.5;
 }
 
 .button:hover {
@@ -63,7 +63,7 @@ html, body {
 /* HEADER */
 
 header {
-    background-color: #222;
+    background-color: #C0B283;
     padding: 2%;
 }
 
@@ -77,7 +77,7 @@ header {
 li a {
     display: inline;
     float: right;
-    color: #eee;
+    color: #373737;
     text-align: center;
     padding-right: 50px;
     padding-top: 20px;
@@ -122,7 +122,7 @@ h1 {
 }
 
 .contentArea a {
-    color: #eee;
+    color: #373737;
     text-decoration: underline;
 }
 
@@ -164,20 +164,19 @@ figure {
     display: block;
     position: relative;
     overflow: hidden;
-    padding-bottom: 15px;
+    padding-bottom: 0;//15px;
 }
 
 figcaption {
     position: absolute;
-    background: rgba(0, 0, 0, 0.75);
-    color: white;
+    background: rgba(55,55,55,0.9); /*#373737;*/
+    color: #C0B283;
     padding: 0px 100% 0 0;
-    bottom: 0px;
+    bottom: 5px;
     left: 0;
     text-align: center;
     width: 100%;
 }
-
 
 /* CONTACT SECTION */
 
@@ -209,7 +208,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #111;
+    background-color: #C0B283;
     padding: 1%;
     text-align: center;
 }
@@ -221,11 +220,11 @@ footer {
 .socialIcons {
     width: 1.5%;
     margin: 0 3% 0 3%;
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #C0B283;
 }
 
 .socialIcons:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #373737;
 }
 
 
@@ -245,7 +244,7 @@ footer {
 
 .linkAnimated {
     background-size: 200% 100%;
-    background-image: linear-gradient(to right, transparent 50%, #222 50%);
+    background-image: linear-gradient(to right, transparent 50%, #C0B283 50%);
     transition: background-position 1s;
 }
 
