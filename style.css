@@ -4,7 +4,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Vollkorn', Georgia, Times, serif;
-
 }
 
 
@@ -28,10 +27,9 @@ html, body {
     padding: 0!important;
 }
 
-.intro table{
+.intro table {
     margin: 0 auto;
 }
-
 
 .intro table tr th {
     text-align: center;
@@ -40,7 +38,6 @@ html, body {
 }
 
 .button {
-/*    margin: 10px 35% 0 35%; */
     padding: 15px 25px 15px 25px;
     width: 100%;
     border: none;
@@ -67,7 +64,6 @@ html, body {
 
 header {
     background-color: #222;
-    /*width: 100%;*/
     padding: 2%;
 }
 
@@ -91,12 +87,12 @@ li a {
 
 .logo {
     font-family: 'Dancing Script', Georgia, Times, serif;
-    font-size: 40px ;
+    font-size: 40px;
     float: left;
     padding: 0;
 }
 
-.active{
+.active {
     text-decoration: underline;
     letter-spacing: 3px;
 }
@@ -121,11 +117,11 @@ h1 {
     letter-spacing: 1.5px;
 }
 
-.contentArea p{
-  margin-left: 10%;
+.contentArea p {
+    margin-left: 10%;
 }
 
-.contentArea a{
+.contentArea a {
     color: #eee;
     text-decoration: underline;
 }
@@ -141,66 +137,70 @@ h1 {
     padding-left: 10%;
 }
 
+
 /* INTERESTS SECTION */
-.gallery{
-  margin-left: 200px;
-}
-.galleryPhoto{
-  width: 12%;
-  display: inline-block;
-  margin-right: 12%;
+
+.gallery {
+    margin-left: 200px;
 }
 
-.galleryPhoto img{
-  width: 100%;
+.galleryPhoto {
+    width: 12%;
+    display: inline-block;
+    margin-right: 12%;
 }
 
-#bigPhoto{
-  float: left;
-  width: 22%;
+.galleryPhoto img {
+    width: 100%;
+}
+
+#bigPhoto {
+    float: left;
+    width: 22%;
 }
 
 figure {
-  top: -100px;
-  display: block;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 15px;
+    top: -100px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 15px;
 }
 
 figcaption {
-  position: absolute;
-  background: rgba(0,0,0,0.75);
-  color: white;
-  padding: 0px 100% 0 0;
-  bottom: 0px;
-  left: 0;
-  text-align: center;
-  width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0px 100% 0 0;
+    bottom: 0px;
+    left: 0;
+    text-align: center;
+    width: 100%;
 }
 
 
 /* CONTACT SECTION */
-.contactMap{
+
+.contactMap {
     display: inline;
     width: 50%;
     display: inline;
     float: right;
 }
 
-#myMap{
-  width: 80%;
-  padding: 10% 20% 0 0;
+#myMap {
+    width: 80%;
+    padding: 10% 20% 0 0;
 }
-
 
 
 /* DOWNLOAD SECTION */
-.imgIcon{
-    width: 100px;
-    padding: 0;
-    margin-left: 100px;
+
+.imgIcon {
+    width: 15%;
+    margin: 0 10% 0 5%;
 }
+
 
 /* FOOTER */
 
@@ -214,16 +214,41 @@ footer {
     text-align: center;
 }
 
-.social{
+.social {
     margin-bottom: 5px;
 }
 
-.socialIcons{
-  width: 1.5%;
-  margin: 0 3% 0 3%;
-  border-bottom: 2px solid #111;
+.socialIcons {
+    width: 1.5%;
+    margin: 0 3% 0 3%;
+    border-bottom: 2px solid #111;
 }
 
-.socialIcons:hover{
-  border-bottom: 2px solid white;
+.socialIcons:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/******************************************************************************
+  *                                  EFFECTS                                  *
+  *****************************************************************************/
+
+.fade {
+    opacity: 0.5;
+    transition: opacity .5s ease-in-out;
+}
+
+.fade:hover {
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
+
+.linkAnimated {
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, #222 50%);
+    transition: background-position 1s;
+}
+
+.linkAnimated:hover {
+    background-position: -100% 0;
 }
