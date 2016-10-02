@@ -22,7 +22,7 @@ html, body {
     border-radius: 100%;
     margin: auto;
     display: block;
-    width: 50%;
+    width: 40%;
     margin-bottom: 10%;
     padding: 0!important;
 }
@@ -108,13 +108,14 @@ li a:hover:not(.active){
 
 .contentlayer {
     margin: 0;
-    padding: 2% 0 0 10%;
+    padding: 2% 5% 0 5%;
     margin-bottom: 150px;
 }
 
-h1 {
+h1, h2 {
     padding: 20px;
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+
 }
 
 .contentArea {
@@ -145,7 +146,7 @@ h1 {
     padding-left: 10%;
 }
 
-/* INTERESTS SECTION */
+/* INTERESTS SECTION *
 
 .gallery {
     margin-left: 200px;
@@ -183,6 +184,35 @@ figcaption {
     left: 0;
     text-align: center;
     width: 100%;
+}*/
+
+.gallery{
+    padding: 0 5%;
+}
+
+.section{
+    padding-bottom: 50px;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    display: flex;
+}
+
+.half{
+    width: 50%;
+    display: inline;
+}
+
+.half img, .half p{
+    max-width: 80%;
+    margin: 0 5%;
+
+}
+
+.half p{
+    line-height: 200%;
+    padding-bottom: 15px;
 }
 
 
@@ -306,6 +336,11 @@ footer {
     background-size: 200% 100%;
     background-image: linear-gradient(to right, transparent 50%, #333 50%);
     transition: background-position 1s;
+    color: #EEE;
+}
+
+.linkAnimated:visited{
+    text-decoration: none;
 }
 
 .linkAnimated:hover {
