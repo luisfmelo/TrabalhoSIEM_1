@@ -4,7 +4,6 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Vollkorn', Georgia, Times, serif;
-    margin-bottom: 50px;
 }
 
 
@@ -110,6 +109,7 @@ li a:hover:not(.active){
 .contentlayer {
     margin: 0;
     padding: 2% 0 0 10%;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -137,13 +137,13 @@ h1 {
     float: right;
     width: 40%;
     display: inline;
+    padding:5%;
 }
 
 #myPhoto {
     width: 60%;
     padding-left: 10%;
 }
-
 
 /* INTERESTS SECTION */
 
@@ -187,9 +187,11 @@ figcaption {
 
 
 /* CONTACT SECTION */
+
 #myMap {
     width: 80%;
-    padding: 10% 0 0 10%;
+    padding: 5%;
+    margin: 0 auto;
 }
 
 
@@ -200,7 +202,7 @@ figcaption {
     border-collapse: collapse;
     border-spacing: 0;
     color: #333;
-    margin: 20px 15% 100px 15%;
+    margin: 0 15% 100px 15%;
 }
 
 #horario th, #horario td {
@@ -262,13 +264,13 @@ figcaption {
 /* FOOTER */
 
 footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
     background-color: #333;
     padding: 1%;
     text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
 }
 
 .social {
