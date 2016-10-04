@@ -16,7 +16,6 @@ html, body {
     display: block;
     margin: auto;
     margin-top: 5%;
-    font-weight: normal;
 }
 
 .intro img {
@@ -86,7 +85,7 @@ li a {
     background-color: transparent;
     border-bottom: 1px solid #333;
 }
-li a:hover:not(.active):not(.logo:hover){
+li a:hover:not(.active){
     border-bottom: 1px solid #eee;
     padding-bottom: 0.5%;
 }
